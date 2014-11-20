@@ -8,6 +8,8 @@ rvm:
   - 2.1
   - 2.2
 matrix:
+  global:
+    - BUNDLE_JOBS=4
   allow_failures:
     - rvm: rbx-2
 before_install:
