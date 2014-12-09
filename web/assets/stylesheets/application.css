@@ -1,5 +1,15 @@
-@import url(//fonts.googleapis.com/css?family=Gudea:400,700);
-@import url(//fonts.googleapis.com/css?family=Armata);
+@font-face {
+  font-family: 'Gudea';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gudea'), url(../fonts/gudea_400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Gudea';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Gudea Bold'), local('Gudea-Bold'), url(../fonts/gudea_700.ttf) format('truetype');
+}
 
 * {
   box-sizing: border-box;
